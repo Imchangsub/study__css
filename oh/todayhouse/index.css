@@ -1,0 +1,131 @@
+.layout {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.topBanner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 40px;
+  background: #00c7f5;
+}
+
+.topBanner img {
+  display: block;
+  margin: 0 auto;
+}
+
+.topBanner .closeBtn {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1280px;
+  margin-top: 20px;
+}
+
+.header .titleWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .titleWrap .title {
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.header .titleWrap .subTitle {
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.header .titleWrap .subTitle.active {
+  color: #00c7f5;
+}
+
+.header .titleWrap .subTitle:hover {
+  color: #00c7f5;
+}
+
+.header .searchWrap {
+  width: 20%;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-left: 80px;
+}
+
+.header .searchWrap .searchIcon {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+
+.header .searchWrap input {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+}
+
+.header .searchWrap .searchBtn {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+
+.categoryWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 50px;
+}
+
+.categoryWrap .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.categoryWrap .category .subCategory + .subCategory {
+  margin-left: 20px;
+}
+
+.categoryWrap .category .subCategory {
+  padding: 10px;
+  font-weight: 500;
+}
+
+.categoryWrap .category .subCategory .new {
+  color: #ff755d;
+}
+
+.categoryWrap .category .subCategory.active {
+  color: #00c7f5;
+  border-bottom: solid 2px #00c7f5;
+}
+
+.categoryWrap .category .subCategory:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
