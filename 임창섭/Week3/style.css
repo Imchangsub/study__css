@@ -1,0 +1,122 @@
+@import 'root.css';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: yellowgreen;
+}
+
+a {
+  text-decoration: none;
+  color: #292929;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.wrap {
+  min-width: 1280px;
+  min-height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 141px;
+  text-align: center;
+  background: #fff;
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  margin-left: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo a {
+  display: block;
+}
+
+.menu {
+  font-size: var(--font-large);
+  font-weight: var(--weight-semi-bold);
+}
+
+.menu__list1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__list1 li {
+  padding-right: 70px;
+}
+
+.menu__list1 li a {
+  padding: 0 10px;
+  line-height: 140px;
+}
+
+.menu_list2 {
+  display: none;
+}
+
+.menu_list2 li {
+  padding: 20px 0;
+}
+
+.navbar__links {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.navbar__links a {
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: var(--font-regular);
+  font-weight: var(--weight-semi-bold);
+  border-radius: 50px;
+  color: #fff;
+}
+
+.rental {
+  background: var(--rental--bg);
+}
+
+.hire {
+  background: var(--hire--bg);
+}
+
+.change {
+  background: var(--change--bg);
+}
+
+.search {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: url(/image/ico_search.png) 0 0 no-repeat;
+  margin-left: 28px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: transparent;
+}
